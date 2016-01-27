@@ -1,16 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.uedao.android.pnedittext.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.uedao.android.sample.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="15.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="15.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="70.0dip"
+                    android:textColor="#333333"
+                    android:textSize="18.0sp"
+                    android:text="賬戶餘額:" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="left"
+                    android:paddingLeft="10dip"
+                    android:text="0"
+                    android:textColor="#ff8000"
+                    android:textSize="17.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5.0dip"
+                    android:text="元" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#dadada" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="5.0dip">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="普通套餐"
+                            android:textColor="#333333"
+                            android:textSize="18.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30天/個"
+                            android:textColor="#999999"
+                            android:textSize="18.0sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="1000元"
+                            android:textColor="#333333"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="50% OFF 500元"
+                            android:textColor="#999999"
+                            android:textSize="14.0sp" />
+                    </LinearLayout>
+
+                    <com.uedao.android.pnedittext.PNEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#dadada" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="5.0dip">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="高级套餐"
+                            android:textColor="#333333"
+                            android:textSize="18.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60天/個"
+                            android:textColor="#999999"
+                            android:textSize="18.0sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="2000元"
+                            android:textColor="#333333"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="50% OFF 1000元"
+                            android:textColor="#999999"
+                            android:textSize="14.0sp" />
+                    </LinearLayout>
+
+                    <com.uedao.android.pnedittext.PNEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#dadada" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:paddingLeft="8.0dip"
+            android:text="現付：0元"
+            android:textSize="15.0sp" />
+
+        <Button
+            android:layout_width="100.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="1.0dip"
+            android:text="確認付款"
+            android:textColor="#ffffff"
+            android:textSize="17.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>
