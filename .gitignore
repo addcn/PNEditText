@@ -32,6 +32,7 @@ proguard/
 captures/
 
 
+
 #auto generate
 *.iml
 .gradle
@@ -41,3 +42,5 @@ captures/
 .DS_Store
 /build
 /captures
+
+

@@ -10,7 +10,7 @@
 
 ##Screenshot
 
-<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/pnedittext.gif"  width="225" heigit="400" alt="PNEditText"/></p>
+<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/pnedittext.gif"  width="338" heigit="600" alt="PNEditText"/></p>
 
 
 ##Require 
@@ -18,11 +18,13 @@
 - 开发环境
     - JDK版本：`jdk1.7.0_75`
     - Android Studio版本：`1.5.1`
+    - compileSdkVersion `23`, buildToolsVersion `"23.0.2"`
+    
 
 
 
 ##Usage
-1. Improt library:
+- Improt library:
 
 ```java
 
@@ -38,7 +40,7 @@ dependencies {
 }
 ```
 
-2. example 
+- example 
 
 ```java
 <com.uedao.android.pnedittext.PNEditText

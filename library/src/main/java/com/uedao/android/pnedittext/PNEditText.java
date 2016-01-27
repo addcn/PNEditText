@@ -16,7 +16,6 @@ import android.widget.LinearLayout;
  */
 public class PNEditText extends LinearLayout {
 
-
     public PNEditText(Context context) {
         super(context);
         init(context, null, 0);
