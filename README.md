@@ -1,12 +1,23 @@
 # PNEditText
-一个增加正负按纽来加减数字输入的EditText。
+一个增加正负按纽来加减数字输入的`EditText`。
 
 
-##使用要求
-- Android SDK minSdkVersion >= 8
+##Demo
+
+<a href="https://github.com/addcn/PNEditText/raw/master/docs/apk/pnedittext.latest.apk" title="Download PNEditText">Download APK</a>
+
+<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/qrcode.png"  width="200" heigit="200" alt="Download PNEditText"/></p>
+
+##Screenshot
+
+<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/pnedittext.gif"  width="225" heigit="400" alt="PNEditText"/></p>
+
+
+##Require 
+- Android SDK minSdkVersion >= `8`
 - 开发环境
-    - JDK版本：jdk1.7.0_75
-    - Android Studio版本：1.5.1
+    - JDK版本：`jdk1.7.0_75`
+    - Android Studio版本：`1.5.1`
 
 
 
@@ -39,15 +50,9 @@ dependencies {
 ```
 
 
-##Demo
+##About me
 
-<a href="https://github.com/addcn/PNEditText/raw/master/docs/apk/pnedittext.latest.apk" title="Download PNEditText">Download APK</a>
-
-<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/qrcode.png"  width="300" heigit="300" alt="Download PNEditText"/></p>
-
-##Screenshot
-
-<img src="https://raw.githubusercontent.com/addcn/PNEditText/master/docs/screenshot/pnedittext.gif"  width="480" heigit="800" alt="PNEditText"/></p>
+- 微博[http://www.weibo.com/addcn](http://www.weibo.com/addcn)
 
 
 
