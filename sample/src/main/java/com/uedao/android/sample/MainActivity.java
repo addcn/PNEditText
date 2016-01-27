@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * 加减EditText使用示例
+ * 正负EditText使用示例
  *
  * @author <a href="mailto:lhuibo@gmail.com">dodo</a> 2016/01/27
  * @version ${Id}

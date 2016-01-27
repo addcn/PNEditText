@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
- * 加减EditText
+ * 正负EditText
  *
  * @author <a href="mailto:lhuibo@gmail.com">dodo</a> 2016/01/27
  * @version ${Id}
@@ -27,10 +27,10 @@ public class PNEditText extends LinearLayout {
         init(context, attrs, 0);
     }
 
-    public PNEditText(Context context, AttributeSet attrs, int defStyle) {
+    /*public PNEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(context, attrs, defStyle);
-    }
+    }*/
 
     private void init(Context context, AttributeSet attrs, int defStyle) {
         View view = View.inflate(context, R.layout.layout_pnedittext, null);
