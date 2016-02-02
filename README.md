@@ -1,5 +1,6 @@
 # PNEditText
-一个增加正负按纽来加减数字输入的`EditText`。
+
+一个增强的以正(`Positive`)负(`Negative`)按钮来递增减数值的输入框(`EditText`)。。
 
 
 ##Demo
@@ -26,17 +27,9 @@
 ##Usage
 - Improt library:
 
-```java
-
-allprojects {
-    repositories {
-        ...
-        maven { url "https://jitpack.io" }
-    }
-}
-
+```groovy
 dependencies {
-    compile ''
+    compile 'com.uedao.android.pnedittext:library:1.0.0'
 }
 ```
 

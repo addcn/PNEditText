@@ -51,7 +51,7 @@ install {
                 developers {
                     developer {
                         id 'dodo'		//填写的一些基本信息
-                        name 'dodo'
+                        name 'PNEditText'
                         email 'lhuibo@gmail.com'
                     }
                 }
